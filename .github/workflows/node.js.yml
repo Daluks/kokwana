@@ -32,7 +32,7 @@ jobs:
         uses: SamKirkland/FTP-Deploy-Action@4.3.3
         with:
           server: ftp.updateit.co.za
-          username: kokwana@updateit.co.za
+          username: kokwana@kokwana.updateit.co.za
           password: ${{ secrets.ftp_password }}
           local-dir: ./dist/
           server-dir: /
