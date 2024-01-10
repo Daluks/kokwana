@@ -35,7 +35,7 @@ jobs:
           username: kokwana@updateit.co.za
           password: ${{ secrets.ftp_password }}
           local-dir: ./dist/
-          server-dir: public_html/kokwana/
+          server-dir: /
 #    web-deploy:
 #      name: Deploy
 #      runs-on: ubuntu-latest
