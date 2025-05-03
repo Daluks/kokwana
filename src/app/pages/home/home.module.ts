@@ -6,14 +6,14 @@ import { NouisliderModule } from 'ng2-nouislider';
 import { JwBootstrapSwitchNg2Module } from 'jw-bootstrap-switch-ng2';
 import { RouterModule } from '@angular/router';
 
-import { BasicelementsComponent } from './basicelements/basicelements.component';
-import { NavigationComponent } from './navigation/navigation.component';
-import { TypographyComponent } from './typography/typography.component';
-import { NucleoiconsComponent } from './nucleoicons/nucleoicons.component';
-import { ComponentsComponent } from './components.component';
-import { NotificationComponent } from './notification/notification.component';
-import { NgbdModalComponent } from './modal/modal.component';
-import { NgbdModalContent } from './modal/modal.component';
+import { BasicelementsComponent } from '../../shared/basicelements/basicelements.component';
+import { NavigationComponent } from '../../shared/navigation/navigation.component';
+import { TypographyComponent } from '../../shared/typography/typography.component';
+import { NucleoiconsComponent } from '../../shared/nucleoicons/nucleoicons.component';
+import { HomeComponent } from './home.component';
+import { NotificationComponent } from '../../shared/notification/notification.component';
+import { NgbdModalComponent } from '../../shared/modal/modal.component';
+import { NgbdModalContent } from '../../shared/modal/modal.component';
 
 @NgModule({
     imports: [
@@ -25,7 +25,7 @@ import { NgbdModalContent } from './modal/modal.component';
         JwBootstrapSwitchNg2Module
     ],
     declarations: [
-        ComponentsComponent,
+        HomeComponent,
         BasicelementsComponent,
         NavigationComponent,
         TypographyComponent,
@@ -35,6 +35,6 @@ import { NgbdModalContent } from './modal/modal.component';
         NgbdModalContent
     ],
     entryComponents: [NgbdModalContent],
-    exports:[ ComponentsComponent ]
+    exports:[ HomeComponent ]
 })
-export class ComponentsModule { }
+export class HomeModule { }

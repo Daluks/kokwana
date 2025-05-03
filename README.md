@@ -99,7 +99,7 @@ paper-kit-2-angular
 │   │   │   │   └── basicelements.component.ts
 │   │   │   ├── components.component.html
 │   │   │   ├── components.component.ts
-│   │   │   ├── components.module.ts
+│   │   │   ├── home.module.ts
 │   │   │   ├── modal
 │   │   │   │   ├── modal.component.html
 │   │   │   │   ├── modal.component.scss

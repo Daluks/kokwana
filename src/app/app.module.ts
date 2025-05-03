@@ -9,10 +9,10 @@ import { AppComponent } from './app.component';
 import { NavbarComponent } from './shared/navbar/navbar.component';
 import { FooterComponent } from './shared/footer/footer.component';
 
-import { ComponentsModule } from './components/components.module';
+import { HomeModule } from './pages/home/home.module';
 import { ExamplesModule } from './examples/examples.module';
 import { GalleryComponent } from './gallery/gallery.component';
-import { ServicesComponent } from './services/services.component';
+import { ServicesComponent } from './pages/services/services.component';
 
 
 @NgModule({
@@ -28,7 +28,7 @@ import { ServicesComponent } from './services/services.component';
     NgbModule,
     FormsModule,
     RouterModule,
-    ComponentsModule,
+    HomeModule,
     ExamplesModule,
     AppRoutingModule,
   ],
